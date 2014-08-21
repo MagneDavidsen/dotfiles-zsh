@@ -1,0 +1,9 @@
+[user]
+  name = Magne Davidsen
+  email = magne.davidsen@gmail.com
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
