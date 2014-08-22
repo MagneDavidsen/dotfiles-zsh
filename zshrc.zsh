@@ -83,3 +83,12 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # boxen
 source /opt/boxen/env.sh
+
+# Setup zsh-autosuggestions
+source $DOTFILES/zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically
+zle-line-init() {
+    zle autosuggest-start
+}
+zle -N zle-line-init
