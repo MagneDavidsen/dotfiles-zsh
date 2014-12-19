@@ -50,18 +50,10 @@ plugins=(git osx zshmarks)
 
 source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
+source $HOME/.nix-profile/etc/profile.d/nix.sh
 
 # boxen
 source /opt/boxen/env.sh
-
-# Setup zsh-autosuggestions
-# source $DOTFILES/zsh-autosuggestions/autosuggestions.zsh
-
-# Enable autosuggestions automatically
-zle-line-init() {
-    zle autosuggest-start
-}
-zle -N zle-line-init
 
 # User configuration
 
