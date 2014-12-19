@@ -59,6 +59,8 @@ source /opt/boxen/env.sh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export ANDROID_HOME=/Users/magnedavidsen/Library/Android/sdk/
+
 # postgres tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 
