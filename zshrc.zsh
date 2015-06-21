@@ -53,8 +53,8 @@ source $DOTFILES/aliases.zsh
 
 # User configuration
 
+export HOMEBREW_GITHUB_API_TOKEN=ba36e67a3926cc1566522a0b6b590257ab99ebf1
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 export ANDROID_HOME=/Users/magnedavidsen/Library/Android/sdk/
 
 # postgres tools
