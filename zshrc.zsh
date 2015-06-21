@@ -50,10 +50,6 @@ plugins=(git osx zshmarks)
 
 source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
-source $HOME/.nix-profile/etc/profile.d/nix.sh
-
-# boxen
-source /opt/boxen/env.sh
 
 # User configuration
 
