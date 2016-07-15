@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+git# Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 
@@ -46,21 +46,33 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx zshmarks)
+plugins=(git osx zshmarks autojump)
 
 source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
 
 # User configuration
 
-export HOMEBREW_GITHUB_API_TOKEN=ba36e67a3926cc1566522a0b6b590257ab99ebf1
+export HOMEBREW_GITHUB_API_TOKEN=
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export ANDROID_HOME=/Users/magnedavidsen/Library/Android/sdk/
+export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4
 
 # postgres tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+
+# m-cli (https://github.com/rgcr/m-cli)
+export PATH=$PATH:/usr/local/m-cli
 
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/magnedavidsen/.travis/travis.sh ] && source /Users/magnedavidsen/.travis/travis.sh
+
+export NVM_DIR="/Users/magnedavidsen/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
