@@ -1,4 +1,4 @@
-git# Path to your oh-my-zsh installation.
+# Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 export DOTFILES=$HOME/.dotfiles
 
