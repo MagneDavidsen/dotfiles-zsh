@@ -56,6 +56,7 @@ source $DOTFILES/aliases.zsh
 export HOMEBREW_GITHUB_API_TOKEN=
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4
+export GOPATH=$HOME/.gocode
 
 # postgres tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
