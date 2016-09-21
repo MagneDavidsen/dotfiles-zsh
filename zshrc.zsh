@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export DOTFILES=$HOME/.dotfiles
+export DOTFILES=$HOME/git/setup/dotfiles
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -56,6 +56,7 @@ source $DOTFILES/aliases.zsh
 export HOMEBREW_GITHUB_API_TOKEN=
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4
+export GOPATH=$HOME/.gocode
 
 # postgres tools
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
