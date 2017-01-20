@@ -59,7 +59,7 @@ export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4
 export GOPATH=$HOME/git/gocode
 
 # postgres tools
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 # m-cli (https://github.com/rgcr/m-cli)
 export PATH=$PATH:/usr/local/m-cli
