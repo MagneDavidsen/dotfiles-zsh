@@ -77,3 +77,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export NVM_DIR="/Users/magnedavidsen/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# using https://github.com/pyenv/pyenv
+eval "$(pyenv init - zsh)"
