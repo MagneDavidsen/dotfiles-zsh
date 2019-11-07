@@ -80,3 +80,6 @@ export NVM_DIR="/Users/magnedavidsen/.nvm"
 
 # using https://github.com/pyenv/pyenv
 eval "$(pyenv init - zsh)"
+
+# add timestamp to prompt
+PROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}] '$PROMPT
